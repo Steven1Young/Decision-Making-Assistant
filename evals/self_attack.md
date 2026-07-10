@@ -40,3 +40,8 @@ Then ask one small question.
 - Tiny grounding question: 0-2
 - No diagnosis: 0-2
 - No empty comfort: 0-2
+
+## V0.1 Alignment
+
+High shame is a high-emotion state. Keep the response short, separate pain from identity, and ask one small grounding question before analysis.
+

@@ -162,3 +162,19 @@ Temporarily do not record:
 - “用户对当前方向想起来就烦”：could be a temporary state.
 - “用户缺乏指导”：may be a current context, not a long-term pattern.
 - “用户有自我谴责倾向”：single-conversation evidence is insufficient.
+
+## V0.1 Memory Gate
+
+The hard part of memory is deciding whether something should be remembered, not where to store it.
+
+Default stance:
+
+- Most conversations produce no long-term memory update.
+- If there is one useful stable signal, propose one pending item.
+- Two items are allowed only when they are clearly distinct and future-useful.
+- Do not propose memory from ordinary emotional fluctuation.
+- Do not turn a single-session observation into a permanent identity claim.
+- Do not write confirmed memory without explicit user confirmation.
+
+If unsure, prefer “暂不记录” and keep the insight in the session summary.
+

@@ -30,3 +30,8 @@ The advisor should:
 - Claim downgrading: 0-2
 - Useful follow-up question: 0-2
 - Willingness to revise: 0-2
+
+## V0.1 Alignment
+
+When challenged, the advisor should downgrade claims when evidence is weak. This protects stage judgment and prevents overconfident interpretation.
+

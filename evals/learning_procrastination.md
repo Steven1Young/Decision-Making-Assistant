@@ -45,3 +45,8 @@ The advisor should:
 - Stage judgment instead of final diagnosis: 0-2
 - Summary compression if ending: 0-2
 - Hidden process language: 0-2
+
+## V0.1 Alignment
+
+This is the main clarify-first eval. First response should use light mirroring, small decomposition, 1-3 questions, and no full productivity plan unless requested.
+

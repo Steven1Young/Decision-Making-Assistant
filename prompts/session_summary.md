@@ -182,3 +182,17 @@ Do not expose the label “Chatbox Summary” unless the user asks for a formal 
 ```
 
 The summary should feel like cognitive compression, not a report export.
+
+## V0.1 Save Boundary
+
+A session summary is not automatically saved.
+
+Default behavior:
+
+- Give a short cognitive compression in the chat when useful.
+- Do not say “生成 Chatbox Summary” unless discussing project mechanics.
+- Do not write a summary to disk unless the user explicitly confirms saving.
+- Keep normal summaries around 300-600 Chinese characters.
+
+If the summary includes memory suggestions, keep them brief and conservative: usually 0-1 pending item, never confirmed without explicit user approval.
+

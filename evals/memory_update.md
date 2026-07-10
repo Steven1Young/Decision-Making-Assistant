@@ -48,3 +48,8 @@ The advisor should:
 - Label hygiene: 0-2
 - Sensitivity handling: 0-2
 - Brevity: 0-2
+
+## V0.1 Alignment
+
+The default should be 0-1 pending item, 2 only when clearly distinct and future-useful. The hard question is whether to remember, not where to store it.
+

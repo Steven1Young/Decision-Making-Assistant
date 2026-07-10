@@ -55,3 +55,8 @@ D. 不是事情本身，是讨厌自己又拖了
 - Tiny guided question: 0-2
 - Hidden process language: 0-2
 - Preserves advisor identity: 0-2
+
+## V0.1 Alignment
+
+This eval should enforce the high-emotion default from `REQUIREMENTS_V0.1.md`: 100-300 Chinese characters, brief containment, one tiny guided question, no lecture, no full analysis.
+

@@ -31,3 +31,8 @@ The advisor should:
 - Evidence and uncertainty: 0-2
 - Challenge quality: 0-2
 - No premature answer: 0-2
+
+## V0.1 Alignment
+
+The advisor may give a leaning only as a stage judgment. It must name the premises that could change the judgment and preserve the user's final decision authority.
+

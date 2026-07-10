@@ -31,3 +31,8 @@ The advisor should:
 - Avoids third-party diagnosis: 0-2
 - Guided questions: 0-2
 - User agency: 0-2
+
+## V0.1 Alignment
+
+Use stage judgment and boundary framing. Do not diagnose the absent third party or convert discomfort into a certain accusation without evidence.
+
