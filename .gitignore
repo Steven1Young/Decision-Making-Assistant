@@ -1,0 +1,21 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+
+# Logs and caches
+*.log
+.cache/
+tmp/
+temp/
+
+# Private local data
+memory/raw_transcripts/
+memory/private/
+exports/private/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

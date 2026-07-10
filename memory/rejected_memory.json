@@ -1,0 +1,8 @@
+﻿{
+  "schema_version": "0.1.0",
+  "items": [],
+  "notes": [
+    "Rejected memory records items the user declined or the system decided not to retain.",
+    "Use this to avoid repeatedly suggesting the same poor memory item."
+  ]
+}

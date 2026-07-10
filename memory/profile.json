@@ -1,0 +1,46 @@
+﻿{
+  "schema_version": "0.1.0",
+  "owner_scope": "single_user_local_first",
+  "last_reviewed_at": null,
+  "profile": {
+    "long_term_goals": [],
+    "values": [],
+    "current_life_stage": [],
+    "important_projects": [
+      {
+        "id": "project_personal_cognitive_system",
+        "title": "Personal Cognitive System",
+        "description": "A local-first personal cognitive advisor intended to help the user clarify problems, understand themselves, and improve thinking quality over time.",
+        "status": "active",
+        "evidence": [
+          "Project Genesis and Constitution created during initial planning."
+        ],
+        "confidence": "high",
+        "sensitivity": "low",
+        "created_at": "2026-07-10"
+      }
+    ],
+    "thinking_patterns": [],
+    "emotional_patterns": [],
+    "decision_preferences": [],
+    "knowledge_background": [],
+    "constraints": [],
+    "privacy_preferences": [
+      {
+        "id": "privacy_local_first",
+        "content": "The system should be local-first. Sensitive financial, asset, account, legal, medical, family, relationship, and non-public project information should not be uploaded by default.",
+        "evidence": [
+          "User explicitly preferred local-first and said property-related information should not be uploaded."
+        ],
+        "confidence": "high",
+        "sensitivity": "medium",
+        "created_at": "2026-07-10"
+      }
+    ]
+  },
+  "notes": [
+    "This file is a manually maintained local profile draft.",
+    "Do not write major new memory here without user confirmation.",
+    "Prefer behavioral patterns over personality labels."
+  ]
+}

@@ -1,0 +1,8 @@
+﻿{
+  "schema_version": "0.1.0",
+  "items": [],
+  "notes": [
+    "Confirmed memory should contain only user-approved long-term memory.",
+    "Do not store raw chat transcripts here."
+  ]
+}

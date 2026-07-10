@@ -1,0 +1,8 @@
+﻿{
+  "schema_version": "0.1.0",
+  "items": [],
+  "notes": [
+    "Pending memory items require user review before becoming confirmed long-term memory.",
+    "Each item should include content, type, evidence, confidence, sensitivity, and reason."
+  ]
+}
