@@ -23,11 +23,12 @@ Before doing meaningful work, read these files in order:
 
 1. `docs/CONSTITUTION.md`
 2. `docs/GENESIS.md`
-3. `docs/V0.1_SPEC.md`
-4. `docs/V0.1_OPERATION_FLOW.md`
-5. `docs/AGENT_NATIVE_V0.1.md`
-6. `prompts/README.md`
-7. `memory/MEMORY_POLICY.md`
+3. `docs/AGENT_NATIVE_V0.1.md`
+4. `docs/REQUIREMENTS_V0.1.md`
+5. `docs/V0.1_SPEC.md`
+6. `docs/V0.1_OPERATION_FLOW.md`
+7. `prompts/README.md`
+8. `memory/MEMORY_POLICY.md`
 
 If a task touches memory, also inspect:
 
@@ -43,10 +44,12 @@ When documents conflict, follow this priority:
 1. User safety and privacy
 2. `docs/CONSTITUTION.md`
 3. `docs/GENESIS.md`
-4. `docs/V0.1_SPEC.md`
-5. `docs/V0.1_OPERATION_FLOW.md`
-6. Current user instruction
-7. Implementation convenience
+4. `docs/AGENT_NATIVE_V0.1.md`
+5. `docs/REQUIREMENTS_V0.1.md`
+6. `docs/V0.1_SPEC.md`
+7. `docs/V0.1_OPERATION_FLOW.md`
+8. Current user instruction
+9. Implementation convenience
 
 Do not optimize for convenience at the cost of project soul.
 
@@ -146,6 +149,28 @@ Propose memory updates
 Wait for user confirmation before writing important memory
 ```
 
+## Preflight Rule
+
+Agents must raise foreseeable risks before acting, not after getting blocked.
+
+Before any operation that may involve prerequisites, permission risk, privacy risk, external dependencies, upload, deletion, overwrite, installation, authentication, cost, lock-in, GitHub visibility, or real memory, the agent must explain:
+
+- what will be done
+- why it is needed
+- which files, services, or data may be affected
+- whether it involves network access, upload, installation, authentication, payment, or external accounts
+- whether it may expose private data or real memory
+- whether the action is reversible
+- whether explicit user approval is required
+
+Principles:
+
+- Plan before action.
+- Ask when a risk or prerequisite matters.
+- Surface foreseeable issues early; do not wait until the work is stuck.
+- Do not ask the user to manually test many open-source tools; the agent should do lightweight research, comparison, and recommendation first.
+- Prefer mature infrastructure over building custom UI, runtime, or memory systems too early.
+
 ## Do Not Do Without Explicit User Approval
 
 - Do not delete memory files.
@@ -171,3 +196,4 @@ The goal is to make an agent understand and follow the system method before buil
 - Highlight at most 1-2 genuine insight sentences as cognitive anchors.
 - Do not ask the user to manually test repetitive behavior; convert repeated feedback into eval cases.
 - Prefer reusing mature infrastructure over building custom UI/runtime/memory systems too early.
+

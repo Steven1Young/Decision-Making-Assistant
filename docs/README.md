@@ -14,15 +14,22 @@ This directory contains the foundational documents for the Personal Cognitive Sy
 3. `AGENT_NATIVE_V0.1.md`
    - Explains why the first version is an agent-native local workspace instead of a traditional app.
 
-4. `V0.1_SPEC.md`
+4. `REQUIREMENTS_V0.1.md`
+   - Freezes V0.1 product requirements, behavior defaults, and agent preflight rules.
+   - Use this to prevent V0.1 from drifting into a full app or generic chatbot.
+
+5. `V0.1_SPEC.md`
    - Defines what the first version should and should not do.
    - Focuses on the first core entry: “我现在很乱，帮我梳理”.
 
-5. `V0.1_OPERATION_FLOW.md`
+6. `V0.1_OPERATION_FLOW.md`
    - Converts the V0.1 spec into a concrete operating flow.
    - Use this when building or testing the first prototype.
 
-6. `OPEN_QUESTIONS_AND_BACKLOG.md`
+7. `BUILD_VS_BUY.md`
+   - Defines what to reuse, what to build ourselves, and how to avoid reinventing infrastructure too early.
+
+8. `OPEN_QUESTIONS_AND_BACKLOG.md`
    - Tracks undecided questions, implementation backlog, and future work.
 
 ## Related Root Files
@@ -44,9 +51,11 @@ When documents conflict, use this priority:
 2. `CONSTITUTION.md`
 3. `GENESIS.md`
 4. `AGENT_NATIVE_V0.1.md`
-5. `V0.1_SPEC.md`
-6. `V0.1_OPERATION_FLOW.md`
-7. `OPEN_QUESTIONS_AND_BACKLOG.md`
+5. `REQUIREMENTS_V0.1.md`
+6. `V0.1_SPEC.md`
+7. `V0.1_OPERATION_FLOW.md`
+8. `BUILD_VS_BUY.md`
+9. `OPEN_QUESTIONS_AND_BACKLOG.md`
 
 The Constitution protects principles.
 
@@ -54,8 +63,11 @@ Genesis protects the soul.
 
 Agent-native V0.1 defines the first operating shape.
 
+Requirements V0.1 freezes product and behavior decisions.
+
 The Spec and Operation Flow guide implementation.
+
+Build vs Buy protects the project from reinventing infrastructure too early.
 
 The Backlog records work still in motion.
 
-- BUILD_VS_BUY.md — build-vs-buy strategy: what to reuse, what to build ourselves, and how to avoid reinventing infrastructure.
